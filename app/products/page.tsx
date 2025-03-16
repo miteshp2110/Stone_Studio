@@ -307,9 +307,9 @@ export default function ProductsPage() {
             {/* Products Grid */}
             <div className="flex-1">
               <div className="mb-6">
-                <h1 className="text-3xl font-bold mb-2">Digital Assets</h1>
+                <h1 className="text-3xl font-bold mb-2">Our Offerings</h1>
                 <p className="text-muted-foreground">
-                  Browse our collection of premium digital assets for your creative projects.
+                  Browse our collection of premium stones and related designs.
                 </p>
               </div>
 
@@ -363,7 +363,7 @@ export default function ProductsPage() {
                         </Link>
                         <p className="text-muted-foreground text-sm mb-3 line-clamp-2" dangerouslySetInnerHTML={{__html: product.description}}></p>
                         <div className="flex justify-between items-center">
-                          <span className="font-bold text-lg">{formatCurrency(Number.parseFloat(product.price))}</span>
+                          {/* <span className="font-bold text-lg">{formatCurrency(Number.parseFloat(product.price))}</span> */}
                           
                           <Button disabled={cartSet.has(product.id)} variant="outline" size="sm">
                             Enquire

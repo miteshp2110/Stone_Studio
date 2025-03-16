@@ -17,9 +17,9 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Company Name",
-  description: "Premium digital assets marketplace",
-    generator: 'miteshp2110'
+  title: "The Stone Studio",
+  description: "Premium Stone works.",
+  generator: 'miteshp2110',
 }
 
 export default function RootLayout({

@@ -169,7 +169,7 @@ export default function Home() {
                             
                         </p>
                         <div className="flex justify-between items-center">
-                          <span className="font-bold text-lg">{formatCurrency(Number.parseFloat(product.price))}</span>
+                          {/* <span className="font-bold text-lg">{formatCurrency(Number.parseFloat(product.price))}</span> */}
                           <Button variant="outline" size="sm" className="text-xs">
                             View Details
                           </Button>

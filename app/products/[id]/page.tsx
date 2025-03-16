@@ -187,9 +187,9 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
             <div className="space-y-6">
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
                 <h1 className="text-3xl font-bold mb-2">{product.name}</h1>
-                <p className="text-2xl font-semibold text-accent mb-4">
+                {/* <p className="text-2xl font-semibold text-accent mb-4">
                   {formatCurrency(Number.parseFloat(product.price))}
-                </p>
+                </p> */}
 
                 <div className="prose max-w-none mb-8">
                 <div
